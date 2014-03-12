@@ -13,7 +13,7 @@ a img{
 .thumbnail {
 	float: left;
 	width: 200px;
-	margin: 0 15px 15px 0;
+	margin: 15px 15px 15px 15px;
 	}
 
 .clearfloat {
@@ -24,8 +24,9 @@ figure {
 	width: 200px;
 	float: left;
 	background-color: #eee;
-	padding: 10px;
-	margin: 10px;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 5px 5px 8px #101010;
 	}
 	
 figcaption {
@@ -34,6 +35,7 @@ figcaption {
 	
 h1 {
 	font-family: "Buxton Sketch Regular", Calibri;
+	text-shadow: 5px 5px 8px #101010;
 	}
 
 body {
@@ -41,7 +43,7 @@ body {
 	}
 
 .ImageContent {
-	width: 700px;
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	}
@@ -54,9 +56,9 @@ body {
 <h1> My image gallery </h1>
 
 <div class="ImageContent">
-<div class="clearfloat">
+
 <!-- Picture 1 -->
-<div class="thumbnail">
+
 <figure>
 	<a href="images/Adams_Boulder_Dam_1942.jpg">
 	<img src="images/tn_Adams_Boulder_Dam_1942.jpg" alt
@@ -65,10 +67,10 @@ body {
 	<figcaption>Boulder Dam, 1942.
 	</figcaption>
 </figure>
-</div>
+
 
 <!-- Picture 2 -->
-<div class="thumbnail">
+
 <figure>
 	<a href="images/Adams_Church_Taos_Pueblo.jpg">
 	<img src="images/tn_Adams_Church_Taos_Pueblo.jpg" alt
@@ -77,10 +79,10 @@ body {
 	<figcaption>A Taos Pueblo Church.
 	</figcaption>
 </figure>
-</div>
+
 
 <!-- Picture 3 -->
-<div class="thumbnail">
+
 <figure>
 	<a href="images/Adams_Evening_McDonald_Lake_Glacier_National_Park.jpg">
 	<img src="images/tn_Adams_Evening_McDonald_Lake_Glacier_National_Park.jpg" alt
@@ -89,13 +91,13 @@ body {
 	<figcaption>McDonald Lake, at Glacier National Park.
 	</figcaption>
 </figure>
-</div>
-</div>
 
-<div class="clearfloat">
+
+
+
 <!-- Picture 4 -->
-<div class="thumbnail">
-<figure>
+
+<figure class="clearfloat">
 	<a href="images/Adams_Leaf_In_Glacier_National_Park.jpg">
 	<img src="images/tn_Adams_Leaf_In_Glacier_National_Park.jpg" alt
 	="Image of Boulder Dam" />
@@ -103,10 +105,10 @@ body {
 	<figcaption>Leaves at Glacier National Park.
 	</figcaption>
 </figure>
-</div>
+
 
 <!-- Picture 5 -->
-<div class="thumbnail">
+
 <figure>
 	<a href="images/Adams_The_Tetons_and_the_Snake_River.jpg">
 	<img src="images/tn_Adams_The_Tetons_and_the_Snake_River.jpg" alt
@@ -115,10 +117,10 @@ body {
 	<figcaption>The Tetons and Snake River.
 	</figcaption>
 </figure>
-</div>
+
 
 <!-- Picture 6 -->
-<div class="thumbnail">
+
 <figure>
 	<a href="images/Ansel_Adams_-_Farm_workers_and_Mt__Williamson.jpg">
 	<img src="images/tn_Ansel_Adams_-_Farm_workers_and_Mt__Williamson.jpg" alt
@@ -127,13 +129,13 @@ body {
 	<figcaption>Farm Workers by Mt.Williamson.
 	</figcaption>
 </figure>
-</div>
-</div>
 
-<div class="clearfloat">
+
+
+
 <!-- Picture 7 -->
-<div class="thumbnail">
-<figure>
+
+<figure class="clearfloat">
 	<a href="images/Ansel_Adams-Jackson_Lake.jpg">
 	<img src="images/tn_Ansel_Adams-Jackson_Lake.jpg" alt
 	="Image of Boulder Dam" />
@@ -141,10 +143,10 @@ body {
 	<figcaption>Jackson Lake.
 	</figcaption>
 </figure>
-</div>
+
 
 <!-- Picture 8 -->
-<div class="thumbnail">
+
 <figure>
 	<a href="images/Canyon_de_Chelly_panorama_of_valley_from_mountain.jpg">
 	<img src="images/tn_Canyon_de_Chelly_panorama_of_valley_from_mountain.jpg" alt
@@ -153,10 +155,10 @@ body {
 	<figcaption>The deChelly Canyon.
 	</figcaption>
 </figure>
-</div>
+
 
 <!-- Picture 9 -->
-<div class="thumbnail">
+
 <figure>
 	<a href="images/North_Palisade_from_Windy_Point.jpg">
 	<img src="images/tn_North_Palisade_from_Windy_Point.jpg" alt
@@ -165,8 +167,8 @@ body {
 	<figcaption>North Palisade.
 	</figcaption>
 </figure>
-</div>
-</div>
+
+
 </div>
 
 </body>
