@@ -1,3 +1,6 @@
+body {
+	background-color: #FFAC99;
+	}
 a img{
 	border: 0;
 	}
@@ -15,7 +18,7 @@ a img{
 figure {
 	width: 200px;
 	float: left;
-	background-color: #eee;
+	background-color: #FD972B;
 	padding: 20px;
 	margin: 20px;
 	box-shadow: 5px 5px 8px #888888;
@@ -28,8 +31,17 @@ figcaption {
 	
 h1 {
 	font-family: "Buxton Sketch Regular", Calibri;
-	text-shadow: 5px 5px 8px #101010;
+	text-shadow: 5px 5px 8px #882211;
+	color: #A81F00;
+	font-size:60px;
 	}
+	
+h2 {
+	font-family: "Buxton Sketch Regular", Calibri;
+	text-indent: 30px;
+	color: #A81F00
+	}
+	
 
 body {
 	font-family: Candara, Calibri;
