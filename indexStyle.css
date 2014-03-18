@@ -22,7 +22,7 @@ figure {
 	padding: 20px;
 	margin: 20px;
 	box-shadow: 5px 5px 8px #309C04;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 10px 10px;
 	}
 	
 figcaption {
@@ -54,10 +54,3 @@ body {
 	margin-right: auto;
 	}
 
-hr {
-	display: block;
-	height: 1px;
-	border: 0;
-	border-top: 1px solid;
-	}
-	}
